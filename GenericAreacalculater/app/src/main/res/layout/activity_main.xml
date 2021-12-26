@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="243dp"
+        android:backgroundTint="#EAB8B8"
+        android:gravity="center"
+        android:text="Area Calculator!"
+        android:textColor="#009688"
+        android:textSize="50sp"
+        android:textStyle="bold|italic" />
+
+    <Button
+        android:id="@+id/square"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:backgroundTint="#F8CFCC"
+        android:gravity="center"
+        android:text="sQUARE"
+        android:textColor="@color/teal_200"
+        android:textSize="55sp"
+        android:textStyle="bold|italic" />
+
+    <Button
+        android:id="@+id/tri"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:backgroundTint="#F8CFCC"
+        android:gravity="center"
+        android:text="TRIANGLE"
+        android:textColor="@color/teal_200"
+        android:textSize="55sp"
+        android:textStyle="bold|italic" />
+
+    <Button
+        android:id="@+id/rec"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:backgroundTint="#F8CFCC"
+        android:gravity="center"
+        android:text="rECTANGLE"
+        android:textColor="@color/teal_200"
+        android:textSize="55sp"
+        android:textStyle="bold|italic"
+        tools:ignore="InvalidId" />
+
+    <Button
+        android:id="@+id/circle"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:backgroundTint="#F8CFCC"
+        android:gravity="center"
+        android:text="CRCLE"
+        android:textColor="@color/teal_200"
+        android:textSize="55sp"
+        android:textStyle="bold|italic" />
+
+
+
+</androidx.appcompat.widget.LinearLayoutCompat>
